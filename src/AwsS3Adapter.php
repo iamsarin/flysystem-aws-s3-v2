@@ -280,13 +280,13 @@ class AwsS3Adapter extends AbstractAdapter
     /**
      * {@inheritdoc}
      */
-    public function rename($path, $newpath)
-    {
-        $this->copy($path, $newpath);
-        $this->delete($path);
-
-        return true;
-    }
+//    public function rename($path, $newpath)
+//    {
+//        $this->copy($path, $newpath);
+//        $this->delete($path);
+//
+//        return true;
+//    }
 
     /**
      * {@inheritdoc}

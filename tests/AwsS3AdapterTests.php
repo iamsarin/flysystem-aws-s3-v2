@@ -32,9 +32,9 @@ class AwsS3Tests extends PHPUnit_Framework_TestCase
 
     protected function getUploadBuilder()
     {
-        return Mockery::mock(
+        /*return Mockery::mock(
             'Aws\S3\Model\MultipartUpload\UploadBuilder[build,setSource,setBucket,setKey,setMinPartSize,setOption,setConcurrency,setSource]'
-        );
+        );*/
     }
 
     protected function getAbstractTransfer()

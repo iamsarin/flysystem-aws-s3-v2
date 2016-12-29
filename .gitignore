@@ -3,3 +3,5 @@ bin
 composer.lock
 coverage
 coverage.xml
+/nbproject/private/
+/.idea/
